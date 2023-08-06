@@ -1,0 +1,142 @@
+body{
+   /* display: flex;
+    justify-content: center;*/
+}
+.container{
+    display: flex;
+   justify-content: center;
+}
+.wrapper{
+    background-color: white;
+    border-radius: 25px;
+    display: flex;  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.result{
+    background-color: rgba(10, 13, 206, 0.87);
+    border-radius: 25px;
+    color: white;
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    
+}
+/*@media screen and (max-width: 480px) {
+    .result {
+        width: 360px;
+    }
+}*/
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgba(7, 8, 100, 0.87);
+    margin: auto;
+    padding: 16px;
+    margin-bottom: 20px;
+    display: flex; 
+    justify-content:center; 
+    flex-direction: column; 
+    padding-top: 10px;
+}
+h2{
+    text-align: center;
+}
+.summary{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-top: 20px;
+}
+
+.iconreaction{
+    background-color: rgb(248, 235, 235);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 10px 0 10px 0;
+    margin-bottom: 8px;
+}
+.iconreact{
+    color: rgb(245, 104, 104);
+    display: flex;
+    
+}
+.iconmemory{
+    background-color: rgb(243, 239, 218);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 10px 15px 10px 15px;
+    margin-bottom: 8px;
+}
+.iconmemo{
+    color: rgb(245, 170, 58);
+    display: flex;
+    
+}
+.iconverbal{
+    background-color: rgb(218, 243, 221);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 10px 15px 10px 15px;
+    margin-bottom: 8px;
+}
+.iconver{
+    color: rgb(73, 189, 121);
+    display: flex;
+    
+}
+.iconvisual{
+    background-color: rgb(218, 243, 221);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 10px 15px 10px 15px;
+    margin-bottom: 18px;
+}
+.iconvi{
+    color: rgb(73, 189, 121);
+    display: flex;
+    
+}
+.btn{
+    background-color: rgb(30, 32, 53);
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.attribution{
+    margin: auto;
+    bottom: 0;
+    text-align: center;
+    /*font-size:.7rem;*/
+    font-size: 1rem;
+ 
+    padding: 5px;
+}
+@media screen and (max-width: 700px) {
+    .wrapper {
+      display: block;
+      
+    }
+    .result{
+        width: 216px;
+        
+      }
+      .summary {
+        padding-bottom: 10px;
+         
+       }
+  }
